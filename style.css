@@ -4,19 +4,68 @@ html, body{
 }
 
 header{
-  font-size: 9vw;
-  text-align: center;
   padding: 25px 0px 0px 0px;
-  font-family: "Raleway", Helvetica, Sans-serif;
-  font-weight: 100;
   margin: 0;
+  display: flex;
+  background-color: none;
+}
+
+.keep{
+  margin: auto;
+  display: inline;
+}
+header span{
+  font-size: 6vw;
+  font-family: "Raleway", Helvetica, Sans-serif;
+  font-weight: 200;
+}
+
+.name-one{
+  margin: auto 0 auto auto;
+}
+
+.name-two{
+  margin: auto 0;
+  display: none;
+}
+
+.name-three{
+  margin: auto 0;
+}
+
+.name-four{
+  margin: auto auto auto 0;
+  display: none;
+}
+
+
+.arrow{
+  background-color: none;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.one{
+  width: 48%;
+  height: 1px;
+  margin: auto;
+  background-color: #555;
+}
+
+.x{
+  width: 4%;
+  margin: auto;
+  background-color: none;
+  text-align: center;
+  font-size: 2vw;
 }
 
 menu{
   background-color: none;
   padding: 0;
   width: 60%;
-  margin: 50px auto 0px auto;
+  margin: 10px auto 10px auto;
 
 
 }
@@ -58,11 +107,13 @@ menu ul li:hover{
 
 .mast h1{
   font-family: "Raleway", Helvetica, Sans-serif;
-  font-size: 6vw;
+  font-size: 50px;
   color: #fff;
   text-align: center;
   background-color: none;
   margin: auto;
+  padding: 20px;
+
 }
 
 .divide{
